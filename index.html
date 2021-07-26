@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1 | by bhaveshgoyal182</title>
+</head>
+
+<body>
+    <div class="form">
+        <h1>This is Time Table</h1>
+        <table border="4" cellspacing="4" cellpadding="6">
+            <thead>
+                <th>Days/Periods</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th></th>
+                <th>4</th>
+                <th>5</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mon</td>
+                    <td>Hindi</td>
+                    <td>English</td>
+                    <td>Science</td>
+                    <td rowspan="6">B <br> R <br> E <br> A <br> K</td>
+                    <td>Maths</td>
+                    <td>SST</td>
+                </tr>
+                <tr>
+                    <td>Tue</td>
+                    <td>English</td>
+                    <td>Hindi</td>
+                    <td>Maths</td>
+                    <td>Science</td>
+                    <td>SST</td>
+                </tr>
+                <tr>
+                    <td>Wed</td>
+                    <td>English</td>
+                    <td>Hindi</td>
+                    <td>Science</td>
+                    <td>Maths</td>
+                    <td>SST</td>
+                </tr>
+                <tr>
+                    <td>Thur</td>
+                    <td>English</td>
+                    <td>Science</td>    
+                    <td>Maths</td>
+                    <td>Hindi</td>
+                    <td>SST</td>
+                </tr>
+                <tr>
+                    <td>Fri</td>
+                    <td>Science</td>
+                    <td>Hindi</td>
+                    <td>English</td>
+                    <td>Maths</td>
+                    <td>SST</td>
+                </tr>
+                <tr>
+                    <td>Sat</td>
+                    <td>Sports</td>
+                    <td>Sports</td>
+                    <td>Sports</td>
+                    <td colspan="3">Sports</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="8" align="center"><strong>This is for class XII</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+</body>
+
+</html> 
+
+
+<br>
+<br>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bio Data</title>
+    </head>
+    <body>
+        <h1>My Bio Data</h1>
+        <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <span>First Name:</span>
+            <input type="text" id="fname" placeholder="First Name">
+            <span>Last Name:</span>
+            <input type="text" id="lname" placeholder="Last Name">
+            <br>
+            <br>
+            <lable for="male">Male</lable>
+            <input type="radio" id="male" name="gender" value="male"/>
+            <lable for="female">Female</lable>
+            <input type="radio" id="female" name="gender" value="female"/>
+            <lable for="others">Others</lable>
+            <input type="radio" id="others" name="gender" value="others"/>
+            <br><br>
+            <span>Date of Birth:</span>
+            <input type="date" if="dob">
+            <br><br>
+            <span>E-mail:</span>
+            <input type="email" id="email" placeholder="Enter Your Email">
+            <br><br>
+            <span>Phone:</span>
+            <input type="tel" id="phone" placeholder="+91">
+            <br><br>
+            <span>Height:</span>
+            <input type="number" id="height" placeholder="Height in Feet">
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <span>School Name:</span>
+            <input type="text" id="sname" placeholder="School Name">
+            <br><br>
+            <span>Class:</span>
+            <input type="text" id="class" placeholder="Enter Class">
+            <br><br>
+            <lable for="stream">Stream:</lable>
+            <select id="stream">
+                <option value="Stream">Stream</option>
+                <option value="non-medical">Non-Medical</option>
+                <option value="medical">Medical</option>
+                <option value="commerce">Commerce</option>
+                <option value="arts">Arts</option>
+            </select>
+            <br><br>
+            <lable for="marksheer">Marksheet:</lable>
+            <input type="file" id="marksheet">
+        </fieldset>
+        <br>
+        <input type="submit" id="submit">
+        </form>
